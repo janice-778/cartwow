@@ -1,0 +1,13 @@
+module.exports={
+    configureWebpack:{
+        resolve:{
+            //根据路径做的根路径别名
+           alias:{
+               'assets':'@/assets',
+               'components':'@/components',
+               'network':'@/network',
+               'views':'@views'
+           } 
+        }
+    }
+} 
